@@ -8,22 +8,38 @@
         width: 100%;
         opacity: 0.1;
         margin: 0;
+        margin-top: 40px;
+
+        @include for-large {
+            margin: 0;
+        }
     }
 
     &__description {
+        display: none;
         line-height: 26px;
         font-size: 18px;
-        width: 360px;
         margin-top: 36px;
+        width: 360px;
         color: rgba(43, 41, 45, 0.6);
+
+        @include for-large {
+            display: block;
+        }
     }
 }
 
 .footer-navigation {
-    width: 1140px;
-    margin: 0 auto;
-    height: 338px;
+    margin: 0;
     display: flex;
+    flex-direction: column;
+
+    @include for-large {
+        width: 1140px;
+        height: 338px;
+        flex-direction: row;
+        margin: 0 auto;
+    }
 }
 
 .about-company {
@@ -31,20 +47,40 @@
 }
 
 .downloads {
-    margin-top: 25px;
+    margin: 25px 15px 0 15px;
+    display: flex;
+    justify-content: center;
 
     &__item {
         margin-right: 10px;
     }
+
+    @include for-large {
+        margin: 0;
+        margin-top: 25px;
+        justify-content: left;
+    }
 }
 
 .additional-navigation {
-    margin-top: 60px;
-    margin-left: auto;
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
+    flex-direction: column;
 
     &__column {
-        margin-right: 29px;
+        margin-top: 30px;
+
+        @include for-large {
+            margin: 0;
+            margin-right: 29px;
+        }
+    }
+
+    @include for-large {
+        flex-direction: row;
+        margin-top: 60px;
+        margin-left: auto;
     }
 }
 
@@ -71,28 +107,85 @@
 }
 
 .footer-links {
-    width: 1140px;
-    margin: 0 auto;
-    height: 50px;
+    margin-left: 15px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+
+    @include for-large {
+        height: 50px;
+        flex-direction: row;
+        width: 1140px;
+        margin: 0 auto;
+        align-items: center;
+    }
 }
 
 .terms {
-    line-height: 50px;
+    line-height: 22px;
     font-size: 14px;
+    margin-top: 30px;
 
     &__item {
         text-decoration: none;
         color: rgba(43, 41, 45, 0.6);
         margin-right: 22px;
     }
+
+    @include for-large {
+        line-height: 50px;
+        margin-top: 0;
+    }
 }
 
 .social-links {
-    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 23px;
 
     &__item {
-        margin-right: 20px;
+        margin-left: 20px;
     }
+
+    &__item:first-child {
+        margin-left: 0;
+    }
+
+    @include for-large {
+        margin-left: auto;
+        margin-bottom: 0;
+    }
+}
+
+.footer-logo {
+    @include for-small-and-medium {
+        display: none;
+    }
+}
+
+.logo-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include for-large {
+        display: none;
+    }
+}
+
+.logo-vertical__image {
+    height: 60px;
+    width: 60px;
+}
+
+.logo-vertical__name {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.logo-vertical__decription {
+    font-size: 18px;
+    line-height: 25px;
+    color: #2B292D99;
 }

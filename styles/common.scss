@@ -33,3 +33,15 @@
             width: 100%;
         }
 }
+
+.hide_desktop {
+    @include for-large {
+        display: none;
+    }
+}
+
+.hide_mobile {
+    @include for-small-and-medium {
+        display: none;
+    }
+}
