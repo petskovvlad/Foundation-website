@@ -105,14 +105,14 @@
         line-height: 25px;
         margin-right: 50px;
 
+        &:last-child {
+            margin-right: 0xp;
+        }
+
 
         &_selected {
             font-weight: 700;
         }
-    }
-
-    &__item:last-child {
-        margin-right: 0xp;
     }
 
     &__arrow {

@@ -21,13 +21,13 @@
         align-items: center;
         flex: 1;
 
+        &:last-child {
+            border-right: none;
+        }
+
         @include for-large {
             border: 0;
         }
-    }
-
-    &__item:last-child {
-        border-right: none;
     }
 
     &__logo {

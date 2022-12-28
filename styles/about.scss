@@ -10,16 +10,16 @@
     }
 }
 
-.article:last-child {
-    margin-top: 20px;
-    
-    @include for-large {
-        margin-top: 0;
-
-    }
-}
-
 .article {
+
+    &:last-child {
+        margin-top: 20px;
+        
+        @include for-large {
+            margin-top: 0;
+    
+        }
+    }
 
     &__title {
         font-weight: 700;
