@@ -79,7 +79,7 @@
     &__name {
         font-size: 20px;
         color: #000;
-        font-weight: 700;
+        font-weight: $text-weight;
         line-height: 25px;
     }
 
@@ -89,7 +89,7 @@
         @include for-large {
         font-size: 18px;
         opacity: 0.6;
-        color: #2b292d;
+        color: $text-color-dark-grey;
         line-height: 25px;
         }
     }
@@ -100,7 +100,7 @@
 
     &__item {
         text-decoration: none;
-        color: #2b292d;
+        color: $text-color-dark-grey;
         font-size: 18px;
         line-height: 25px;
         margin-right: 50px;
@@ -111,7 +111,7 @@
 
 
         &_selected {
-            font-weight: 700;
+            font-weight: $text-weight;
         }
     }
 

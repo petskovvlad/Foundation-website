@@ -1,12 +1,12 @@
+@import 'breakpoints.scss';
 @import 'variables.scss';
+@import 'common.scss';
 @import 'header.scss';
 @import 'footer.scss';
 @import 'headline.scss';
-@import 'common.scss';
 @import 'about.scss';
 @import 'customers.scss';
 @import 'features.scss';
-@import 'breakpoints.scss';
 @import 'tips.scss';
 @import 'audience.scss';
 
@@ -17,7 +17,7 @@
 html {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
-    color: $color-basic;
+    color: $text-color-dark-grey;
 }
 
 .page {

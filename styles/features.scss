@@ -19,18 +19,18 @@
     }
     
     &__subtitle {
-        color: #009b4d;
+        color: $text-color-green;
         font-size: 22px;
         line-height: 34px;
-        font-weight: 700;
+        font-weight: $text-weight;
         margin: 0;
     }
 
     &__title {
-        color: $color-basic;
+        color: $text-color-dark-grey;
         font-size: 56px;
         line-height: 56x;
-        font-weight: 700;
+        font-weight: $text-weight;
         letter-spacing: -0.5px;
         margin-top: 24px;
         margin-bottom: 0;
@@ -51,7 +51,7 @@
 
     &__advantage-title {
         font-size: 22px;
-        font-weight: 700;
+        font-weight: $text-weight;
         line-height: 26px;
         color: #3142c6;
         margin: 0;
@@ -75,7 +75,7 @@
     }
 
     &__advantage-item-text {
-        font-weight: 700;
+        font-weight: $text-weight;
         font-size: 22px;
         line-height: 26px;
         margin-left: 15px;

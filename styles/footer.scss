@@ -21,7 +21,7 @@
         font-size: 18px;
         margin-top: 36px;
         width: 360px;
-        color: rgba(43, 41, 45, 0.6);
+        color: $text-color-light-grey;
 
         @include for-large {
             display: block;
@@ -88,16 +88,16 @@
     width: 265px;
 
     &__title {
-        font-weight: bold;
+        font-weight: $text-weight;
         font-size: 22px;
         line-height: 28px;
-        color: #2b292d;
+        color: $text-color-dark-grey;
         margin: 0;
     }
 
     &__list {
         list-style-type: none;
-        color: rgba(43, 41, 45, 0.6);
+        color: $text-color-light-grey;
         font-size: 18px;
         line-height: 30px;
         padding: 0;
@@ -127,7 +127,7 @@
 
     &__item {
         text-decoration: none;
-        color: rgba(43, 41, 45, 0.6);
+        color: $text-color-light-grey;
         margin-right: 22px;
     }
 
@@ -180,12 +180,12 @@
     font-size: 20px;
     line-height: 25px;
     text-align: center;
-    font-weight: 700;
+    font-weight: $text-weight;
     margin-top: 20px;
 }
 
 .logo-vertical__decription {
     font-size: 18px;
     line-height: 25px;
-    color: #2B292D99;
+    color: $text-color-light-grey;
 }

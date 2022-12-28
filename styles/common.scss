@@ -6,7 +6,7 @@
     border-radius: 2px;
     color: #fff;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: $text-weight;
 
     @include for-small-and-medium {
         width: 100%;
@@ -19,7 +19,7 @@
         height: 48px;
         width: 158px;
         font-size: 18px;
-        font-weight: 700;
+        font-weight: $text-weight;
         border-radius: 2px;
         border: none;
         margin-top: 15px;

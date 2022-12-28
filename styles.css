@@ -1,3 +1,54 @@
+.action-button {
+  background-color: #3040c4;
+  height: 48px;
+  width: 160px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+@media screen and (max-width: 1399px) {
+  .action-button {
+    width: 100%;
+  }
+}
+
+.action-white-button {
+  background-color: #fff;
+  color: #3040c4;
+  height: 48px;
+  width: 158px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+  margin-top: 15px;
+}
+@media screen and (min-width: 1400px) {
+  .action-white-button {
+    margin-left: 10px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .action-white-button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hide_desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .hide_mobile {
+    display: none;
+  }
+}
+
 .top-section {
   background-color: #f3c6bd;
 }
@@ -86,7 +137,7 @@
   .logo__description {
     font-size: 18px;
     opacity: 0.6;
-    color: #2b292d;
+    color: #2B292D;
     line-height: 25px;
   }
 }
@@ -96,7 +147,7 @@
 }
 .navigation__item {
   text-decoration: none;
-  color: #2b292d;
+  color: #2B292D;
   font-size: 18px;
   line-height: 25px;
   margin-right: 50px;
@@ -215,10 +266,10 @@
   width: 265px;
 }
 .nav-links__title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  color: #2b292d;
+  color: #2B292D;
   margin: 0;
 }
 .nav-links__list {
@@ -397,57 +448,6 @@
   }
 }
 
-.action-button {
-  background-color: #3040c4;
-  height: 48px;
-  width: 160px;
-  border: none;
-  border-radius: 2px;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-}
-@media screen and (max-width: 1399px) {
-  .action-button {
-    width: 100%;
-  }
-}
-
-.action-white-button {
-  background-color: #fff;
-  color: #3040c4;
-  height: 48px;
-  width: 158px;
-  font-size: 18px;
-  font-weight: 700;
-  border-radius: 2px;
-  border: none;
-  margin-top: 15px;
-}
-@media screen and (min-width: 1400px) {
-  .action-white-button {
-    margin-left: 10px;
-    margin-top: 0;
-  }
-}
-@media screen and (max-width: 1399px) {
-  .action-white-button {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .hide_desktop {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1399px) {
-  .hide_mobile {
-    display: none;
-  }
-}
-
 .about {
   width: 100%;
   background-color: #f4f5f7;
@@ -560,7 +560,7 @@
   margin: 0;
 }
 .features__title {
-  color: #2b292d;
+  color: #2B292D;
   font-size: 56px;
   line-height: 56x;
   font-weight: 700;
@@ -788,7 +788,7 @@
 html {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
-  color: #2b292d;
+  color: #2B292D;
 }
 
 .page {
