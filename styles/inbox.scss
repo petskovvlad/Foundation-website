@@ -2,10 +2,20 @@
     background-color: #fcf0e366;
     width: 100%;
 
+    @include for-large {
+        width: 1400px;
+        display: flex;
+    }
+
     &__content {
         display: flex;
         flex-direction: column;
-        padding: 50px 15px 48px 15px;
+        padding: 0 15px 48px 15px;
+
+        @include for-large {
+            display: flex;
+            margin: 115px 130px 116px 190px;
+        }
     }
 
     &__decoration {
@@ -13,6 +23,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 50px;
+
+        @include for-large {
+            margin: 142px 0 0 193px;
+            height: 510px;
+            width: 425px;
+        }
     }
 
     &__decoration-image {
@@ -22,6 +39,14 @@
 
     &__decoration-description {
         display: none;
+
+        @include for-large {
+            display: block;
+            color: $text-color-light-grey;
+            margin-top: 15px;
+            font-size: 14px;
+            line-height: 22px;
+        }
     }
 
     &__subtitle {
@@ -39,6 +64,13 @@
         font-weight: $text-weight;
         margin: 0;
         margin-top: 17px;
+
+        @include for-large {
+            margin-top: 24px;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -0.5px;
+        }
     }
 
     &__description {
@@ -47,12 +79,24 @@
         height: 205px;
         margin: 0;
         margin-top: 18px;
+
+        @include for-large {
+            height: 102px;
+            width: 461px;
+        }
     }
 }
 
 .massage {
     background-color: #fff;
     height: 321px;
+
+    @include for-large {
+        margin-left: -28px;
+        width: 519px;
+        height: 213px;
+        margin-top: 44px;
+    }
 
     &__description {
         margin: 0;
@@ -92,5 +136,7 @@
     &__line {
         height: 4px;
         background-color: #0185D0;
+        margin-left: -28px;
+        width: 519px;
     }
 }
