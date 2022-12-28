@@ -1,0 +1,96 @@
+.inbox {
+    background-color: #fcf0e366;
+    width: 100%;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 15px 48px 15px;
+    }
+
+    &__decoration {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__decoration-image {
+        width: 290px;
+        height: 348px;
+    }
+
+    &__decoration-description {
+        display: none;
+    }
+
+    &__subtitle {
+        color: #F1592B;
+        font-weight: $text-weight;
+        font-size: 22px;
+        line-height: 34px;
+        margin-top: 32px;
+    }
+
+    &__title {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.3px;
+        font-weight: $text-weight;
+        margin: 0;
+        margin-top: 17px;
+    }
+
+    &__description {
+        font-size: 24px;
+        line-height: 34px;
+        height: 205px;
+        margin: 0;
+        margin-top: 18px;
+    }
+}
+
+.massage {
+    background-color: #fff;
+    height: 321px;
+
+    &__description {
+        margin: 0;
+        margin: 30px 20px 0px 20px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    &__user {
+        display: flex;
+        margin-top: 26px;
+    }
+
+    &__user-image {
+        margin: 2px 11px 0 20px;
+        height: 40px;
+        width: 40px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: $text-weight;
+    }
+
+    &__name-description {
+        font-size: 16px;
+        line-height: 22px;
+        color: $text-color-light-grey;
+    }
+
+    &__line {
+        height: 4px;
+        background-color: #0185D0;
+    }
+}
