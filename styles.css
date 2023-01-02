@@ -1054,6 +1054,7 @@
 @media screen and (min-width: 1400px) {
   .order__illustration {
     max-width: 269px;
+    margin: 0;
     margin-right: 121px;
   }
 }
@@ -1090,7 +1091,8 @@
   text-align: center;
   font-size: 18px;
   line-height: 13px;
-  border: 1px solid #3142C6;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 2px;
 }
 .order__email::placeholder {
   color: #2B292D;
