@@ -675,12 +675,12 @@
   background-color: rgba(0, 161, 198, 0.062745098);
 }
 .audience__content {
-  padding: 0px 15px;
+  padding: 50px 15px;
   text-align: center;
 }
 @media screen and (min-width: 1400px) {
   .audience__content {
-    margin-top: 108px;
+    padding: 108px 131px 110px 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -747,7 +747,7 @@
 @media screen and (min-width: 1400px) {
   .audience__items {
     flex-direction: row;
-    margin: 111px 131px 110px 130px;
+    margin-top: 111px;
   }
 }
 .audience__decoration {
