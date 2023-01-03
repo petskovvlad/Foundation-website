@@ -766,6 +766,7 @@
 .user-card:hover {
   background-color: #3141C5;
   color: #fff;
+  box-shadow: 0px 11px 55px 0px rgba(0, 0, 0, 0.07), 0px 13px 18px 0px rgba(0, 0, 0, 0.15);
 }
 @media screen and (min-width: 1400px) {
   .user-card {
