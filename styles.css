@@ -750,7 +750,8 @@
     margin-top: 111px;
   }
 }
-.audience__decoration {
+
+.user-card {
   background-color: #fff;
   height: 300px;
   border-radius: 8px;
@@ -759,25 +760,25 @@
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
   cursor: pointer;
 }
-.audience__decoration:first-child {
+.user-card:first-child {
   margin: 0;
 }
-.audience__decoration:hover {
+.user-card:hover {
   background-color: #3141C5;
   color: #fff;
 }
 @media screen and (min-width: 1400px) {
-  .audience__decoration {
+  .user-card {
     height: 300px;
     width: 262px;
     margin: 0;
     margin-left: 30px;
   }
 }
-.audience__decoration-image {
+.user-card__decoration-image {
   margin-top: 22px;
 }
-.audience__image-caption {
+.user-card__image-caption {
   font-size: 22px;
   line-height: 28px;
   font-weight: 700;
